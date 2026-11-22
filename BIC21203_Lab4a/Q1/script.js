@@ -1,0 +1,12 @@
+// Select the paragraph and button
+const message = document.getElementById("message");
+const changeBtn = document.getElementaryById("changeBtn");
+
+// Create a function
+function changeMessage() {
+    message.textContent = "Hello there!";
+
+}
+
+// Add click event listener
+changeBtn.addEventListener("click", changeMessage);
